@@ -17,6 +17,11 @@ ${NAME}:
 		@${AR} ${NAME} ${OBJ}
 		@${RANLIB} ${NAME}
 
+so:
+	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
+	gcc -nostartfiles -shared -o libft.so $(OBJ)
+
+
 clean:
 		@rm -f $(OBJ) 
 

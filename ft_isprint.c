@@ -1,14 +1,24 @@
-#include "includes/libft.h"
-//#include <ctype.h>
-//#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/05/03 18:23:40 by lboudjel          #+#    #+#             */
+/*   Updated: 2023/05/03 18:23:40 by lboudjel         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_isprint(int c)
+#include "includes/libft.h"
+
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-    {
-        return (1);
-    }
-   return (0); 
+	if (c >= 32 && c <= 126)
+	{
+		return (1);
+	}
+	return (0);
 }
 
 //int main(void)
