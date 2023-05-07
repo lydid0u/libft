@@ -9,9 +9,17 @@
 /*   Updated: 2023/05/03 18:24:19 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "includes/libft.h"
+/*
+- count len :
+	on le met en long comme ca 2147483648 rentrera 
+	on compte la taille de n
 
-//on le met en long comme ca 2147483648 rentrera 
+- itoa : 
+	on commence a copier de la droite d'ou len-- et le %
+	le + '0' c'est pour convertir en caractere ascii
+*/
+
+#include "includes/libft.h"
 
 static int	count_len(long int n)
 {	

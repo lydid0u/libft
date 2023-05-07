@@ -35,7 +35,7 @@ char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strdup(char *src);
 void				*ft_calloc(size_t nmemb, size_t size);
-unsigned int		ft_strlcat(char *dest, const char *src, unsigned int size);
+size_t	ft_strlcat(char *dest, const char *src, size_t size);
 int					ft_strlen(char *str);
 int					ft_strncmp(char *s1, char *s2, size_t n);
 int					ft_tolower(int c);

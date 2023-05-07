@@ -19,6 +19,8 @@ afin d’être modifié si nécessaire.
 
 s: La chaîne de caractères sur laquelle itérer.
 f: La fonction à appliquer à chaque caractère.
+
+s + i = adresse de la i-ème case mémoire de la chaîne s
 */
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
@@ -28,7 +30,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	i = 0;
 	while (s[i])
 	{
-		f(i, s[i]);
+		f(i, s + i);
 		i++;
 	}
 }

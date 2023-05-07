@@ -9,7 +9,10 @@
 /*   Updated: 2023/05/03 18:59:09 by lboudjel		 ###   ########.fr	   */
 /*																			*/
 /* ************************************************************************** */
-
+/*
+- compare s1 et s2 sur n caractere de s1 et s2
+- renvoie un entier de la diff entre les 2 str
+*/
 #include "includes/libft.h"
 
 int	ft_strncmp(char *s1, char *s2, size_t n)
@@ -21,7 +24,7 @@ int	ft_strncmp(char *s1, char *s2, size_t n)
 	j = 0;
 	if (n == 0)
 		return (0);
-	while (i < (n) && s1[i] == s2[j] && s1[i])
+	while (i < n && s1[i] == s2[j] && s1[i])
 	{
 		i++;
 		j++;

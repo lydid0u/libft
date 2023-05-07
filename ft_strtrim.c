@@ -16,7 +16,16 @@
 s1: La chaîne de caractères à trimmer.
 set: Le set de référence de caractères à trimmer
 
-la fonction ft_ischarinset sert a ......
+- la fonction ft_ischarinset sert a parcourir la str "set" et la compare a c
+	et savoir si set contient le char c ou pas et renvoie 1 ou 0
+
+exemple : ft_strtrim ("   test   ", " ") --> "test"
+
+- apres le 1e while, start pointe sur le t, on a passe tout les " " 
+- avec le 2e while, on passe tout les " " en decrementant avec end
+
+- on utilise substr pour renvoyer la chaine entre les deux en faisant 
+start - end pour sup les " " de fin (start est deja a la bonne position)
 */
 
 #include "includes/libft.h"

@@ -9,7 +9,11 @@
 /*   Updated: 2023/05/04 14:20:59 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+/*
+- cree une sous chaine a partir d'une str 
+	en commencant a l'index start et de taille len
+- exemple : ("Bonjour tout le monde", 3, 5) --> "jour "
+*/
 #include "includes/libft.h"
 
 static unsigned int	ft_len(const char *str)
@@ -47,6 +51,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		i++;
 	}
 	str[i] = '\0';
-	return (str);
-	free(str);
 }
