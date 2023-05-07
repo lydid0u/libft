@@ -11,6 +11,12 @@
 /* ************************************************************************** */
 
 #include "includes/libft.h"
+/*
+- copie la zone de memoire depuis src vers dest, les zones peuvent se chevaucher
+- if (src < dest) gere les cas où les ZM src et dest se chevauchent : 
+	en copiant les octets a l'envers pour éviter d'écraser des données,
+- else, copie normal quand les zones se chevauchent pas
+*/
 
 void	*ft_memmove(void *destina, const void *source, size_t n)
 {

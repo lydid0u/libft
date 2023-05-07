@@ -3,16 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adzinabi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/04 13:50:10 by adzinabi          #+#    #+#             */
-/*   Updated: 2023/05/04 13:50:10 by adzinabi         ###   ########.fr       */
+/*   Created: 2023/05/04 13:50:10 by lboudjel          #+#    #+#             */
+/*   Updated: 2023/05/04 13:50:10 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 #include <stdio.h>
 #include "includes/libft.h"
+
+//cast pour garantir que la comparaison se fait bien sur des valeurs non signe
 
 char	*ft_strchr(const char *s, int c)
 {

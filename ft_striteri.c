@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+- Applique la fonction ’f’ à chaque caractère de la
+chaîne de caractères transmise comme argument,
+et en passant son index comme premier argument.
+- Chaque caractère est transmis par adresse à ’f’
+afin d’être modifié si nécessaire.
+
+s: La chaîne de caractères sur laquelle itérer.
+f: La fonction à appliquer à chaque caractère.
+*/
+
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	unsigned int	i;
@@ -17,7 +28,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	i = 0;
 	while (s[i])
 	{
-		f(i, s + i);
+		f(i, s[i]);
 		i++;
 	}
 }

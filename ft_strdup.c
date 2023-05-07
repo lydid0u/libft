@@ -10,6 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+ - renvoie un ptr sur une new str qui est dupliquée depuis s
+ - on a la taille de la new str en mallocant
+*/
+
 #include "includes/libft.h"
 
 static int	ft_len(char *str)

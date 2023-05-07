@@ -11,8 +11,13 @@
 /* ************************************************************************** */
 
 #include "includes/libft.h"
-#include <stdio.h>
-#include <string.h>
+
+/*
+- compare les n premiers octets des zones mémoire s1 et s2.
+- renvoie un entier >, = ou < à 0 si s1 est >, = ou < à s2.
+- on cast en char pour traiter les donnees a la suite 
+- "n - 1" pour comparer sur les n premiers octet 
+*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

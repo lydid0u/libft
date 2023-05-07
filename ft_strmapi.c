@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+- Applique la fonction ’f’ à chaque caractère de la
+chaîne de caractères passée en argument pour créer
+une nouvelle chaîne de caractères (avec malloc(3))
+résultant des applications successives de ’f’.
+
+- retourne la nvl chaine
+*/
+
 #include "includes/libft.h"
 
 static int	ft_len(const char *str)

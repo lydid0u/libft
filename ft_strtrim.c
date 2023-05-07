@@ -9,8 +9,15 @@
 /*   Updated: 2023/05/04 14:15:34 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*strtrim retire tout les espaces du debut et de la fin de la str
-laissant que le texte */
+
+/*
+- strtrim retire tout les char set du debut et de la fin de la str
+
+s1: La chaîne de caractères à trimmer.
+set: Le set de référence de caractères à trimmer
+
+la fonction ft_ischarinset sert a ......
+*/
 
 #include "includes/libft.h"
 

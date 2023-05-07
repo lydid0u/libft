@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adzinabi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/03 18:07:51 by adzinabi          #+#    #+#             */
-/*   Updated: 2023/05/03 18:13:37 by adzinabi         ###   ########.fr       */
+/*   Created: 2023/05/07 18:15:51 by lboudjel          #+#    #+#             */
+/*   Updated: 2023/05/07 18:15:51 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "includes/libft.h"
 
 //pareil que bzero, alloue un bloc de memoire et assigne chq octet a 0
