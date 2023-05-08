@@ -12,7 +12,8 @@
 /*
 - concatene src a la fin de dest avec une taille max de size
 - Si size < dest : renvoie la longueur de src + size. 
-- Si size >= dest : concatène src à la fin de dest (verifie que longueur depasse pas size -1)
+- Si size >= dest : concatène src à la fin de dest 
+	(verifie que longueur depasse pas size -1)
 - i + j pcq on met i a la len de dest et on ajoute avec le j a la suite
 */
 

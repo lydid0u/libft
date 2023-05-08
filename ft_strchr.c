@@ -9,6 +9,7 @@
 /*   Updated: 2023/05/04 13:50:10 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 //cast pour garantir que la comparaison se fait bien sur des valeurs non signe
 
 #include <string.h>

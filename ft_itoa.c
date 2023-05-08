@@ -39,7 +39,7 @@ static int	count_len(long int n)
 		len++;
 	}
 	return (len);
-} 
+}
 
 char	*ft_itoa(int nb)
 {

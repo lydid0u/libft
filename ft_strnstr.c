@@ -15,7 +15,7 @@
 - retourne un ptr vers le début de la sous-chaîne
 
 - on fait n-- car on avance dans str, si on atteint n caractères 
-	examinés sans avoir trouvé to_find, la boucle s'arrête et la fonction renvoie NULL.
+	examinés sans avoir trouvé to_find, la boucle stop et la fonction renvoie NULL.
 
 - avec memcmp on check si la to_find se trouve dans str en renvoyant 0
 
