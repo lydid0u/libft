@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adzinabi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 16:12:26 by adzinabi          #+#    #+#             */
-/*   Updated: 2023/05/06 16:13:51 by adzinabi         ###   ########.fr       */
+/*   Updated: 2023/05/08 20:39:57 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_lstadd_front(t_node **lst, t_node *new)
+#include "includes/libft.h"
+
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	new->next = *lst;
 	*lst = new;
@@ -18,8 +20,8 @@ void	ft_lstadd_front(t_node **lst, t_node *new)
 
 /*int main(){
 	struct s_node **lst;
-	struct s_node *first = malloc(sizeof(t_node));
-	struct s_node *new = malloc(sizeof(t_node));
+	struct s_node *first = malloc(sizeof(t_list));
+	struct s_node *new = malloc(sizeof(t_list));
 	lst = &first;
 	first->content = 5;
 	new->content = 1;

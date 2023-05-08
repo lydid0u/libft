@@ -51,4 +51,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		i++;
 	}
 	str[i] = '\0';
+	return (str);
 }
