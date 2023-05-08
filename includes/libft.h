@@ -9,13 +9,13 @@
 /*   Updated: 2023/05/04 14:13:09 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stddef.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
-
 #ifndef LIBFT_H
 # define LIBFT_H
+
+# include <stddef.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <stdio.h>
 
 int					ft_isprint(int c);
 int					ft_atoi(const char *str);
@@ -35,7 +35,7 @@ char				*ft_strchr(const char *s, int c);
 char				*ft_strrchr(const char *s, int c);
 char				*ft_strdup(char *src);
 void				*ft_calloc(size_t nmemb, size_t size);
-size_t	ft_strlcat(char *dest, const char *src, size_t size);
+size_t				ft_strlcat(char *dest, const char *src, size_t size);
 int					ft_strlen(char *str);
 int					ft_strncmp(char *s1, char *s2, size_t n);
 int					ft_tolower(int c);
