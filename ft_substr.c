@@ -14,7 +14,7 @@
 	en commencant a l'index start et de taille len
 - exemple : ("Bonjour tout le monde", 3, 5) --> "jour "
 */
-#include "includes/libft.h"
+#include "libft.h"
 
 static unsigned int	ft_len(const char *str)
 {

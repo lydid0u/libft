@@ -9,7 +9,11 @@
 /*   Updated: 2023/05/06 15:29:10 by adzinabi		 ###   ########.fr	   */
 /*																			*/
 /* ************************************************************************** */
-#include "includes/libft.h"
+#include "libft.h"
+
+/*
+- on fait pointer next du dernier element sur new
+*/
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {

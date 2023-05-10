@@ -10,7 +10,7 @@
 /*																			*/
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 //Remplir une zone mémoire avec un octet donné
 //s = ptr vers le début de la zone mémoire à remplir.

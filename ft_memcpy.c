@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 #include <stdlib.h>
 /*
 - copie n octets depuis la zone mémoire src vers la zone mémoire dest.

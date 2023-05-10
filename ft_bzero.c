@@ -10,7 +10,7 @@
 /*																			*/
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 /*met à 0 les n premiers octets du bloc de memoire pointé par s, 
 n = taille du bloc en octet

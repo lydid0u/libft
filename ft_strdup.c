@@ -15,7 +15,7 @@
  - on a la taille de la new str en mallocant
 */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 static int	ft_len(char *str)
 {

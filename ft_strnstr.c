@@ -22,7 +22,7 @@
 - la fct renvoie un ptr vers le début de la 1e occurence de to_find dans str
 */
 
-#include "includes/libft.h"
+#include "libft.h"
 #include <string.h>
 
 static unsigned int	ft_len(const char *str)

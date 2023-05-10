@@ -12,7 +12,7 @@
 
 //#include <ctype.h>
 //#include <stdio.h>
-#include "includes/libft.h"
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {

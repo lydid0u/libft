@@ -13,7 +13,7 @@
 - compare s1 et s2 sur n caractere de s1 et s2
 - renvoie un entier de la diff entre les 2 str
 */
-#include "includes/libft.h"
+#include "libft.h"
 
 int	ft_strncmp(char *s1, char *s2, size_t n)
 {

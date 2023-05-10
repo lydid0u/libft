@@ -6,13 +6,13 @@
 /*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 14:14:42 by lboudjel          #+#    #+#             */
-/*   Updated: 2023/05/05 14:10:55 by lboudjel         ###   ########.fr       */
+/*   Updated: 2023/05/09 14:07:46 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "includes/libft.h"
+#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

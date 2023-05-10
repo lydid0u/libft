@@ -19,7 +19,7 @@ résultant des applications successives de ’f’.
 - retourne la nvl chaine
 */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 static int	ft_len(const char *str)
 {

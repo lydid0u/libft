@@ -19,7 +19,7 @@
 	le + '0' c'est pour convertir en caractere ascii
 */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 static int	count_len(long int n)
 {	

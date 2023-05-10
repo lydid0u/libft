@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 /*
 - copie la zone de memoire depuis src vers dest, les zones peuvent se chevaucher
 - if (src < dest) gere les cas où les ZM src et dest se chevauchent : 

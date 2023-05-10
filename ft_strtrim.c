@@ -28,7 +28,7 @@ exemple : ft_strtrim ("   test   ", " ") --> "test"
 start - end pour sup les " " de fin (start est deja a la bonne position)
 */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 int	ft_len(const char *str)
 {

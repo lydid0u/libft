@@ -6,11 +6,16 @@
 /*   By: lboudjel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 19:34:42 by lboudjel          #+#    #+#             */
-/*   Updated: 2023/05/08 20:13:50 by lboudjel         ###   ########.fr       */
+/*   Updated: 2023/05/09 15:38:45 by lboudjel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
+
+/*
+passe sur lst et applique f au content de chq element
+- cree une nvl liste et on supp avec del si besoin 
+*/
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

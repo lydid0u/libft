@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 //pareil que bzero, alloue un bloc de memoire et assigne chq octet a 0
 

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/libft.h"
+#include "libft.h"
 
 /*
 - examine les n 1er octets de la zone memoire pointe par s a la 
